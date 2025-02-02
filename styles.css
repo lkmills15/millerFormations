@@ -125,6 +125,10 @@ li{
     color: #fff;
 }
 
+ .none-reg{
+    display:none;
+}
+
 
 .logo-div .logo{
     
@@ -334,7 +338,7 @@ font-weight: 300;
         justify-content: space-between;
     }
 
-    .none{
+    .none-md{
         display: none;
     }
 
@@ -344,6 +348,14 @@ font-weight: 300;
 }
 
 @media(max-width: 768px){
+
+    .menu{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: block;
+    }
     .services-container{
         flex-direction: column;
     }
@@ -360,5 +372,11 @@ font-weight: 300;
         font-size: 1.2rem;
     }
 
+  
+}
 
+@media(max-width: 400px){
+    .none-sm{
+        display: none;
+    }
 }
